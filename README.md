@@ -16,7 +16,7 @@ PHPStorm (IDE): https://www.jetbrains.com/phpstorm/
 
 CMDer (konsolemulator för Windows): http://cmder.net/
 
-WAMP (Apache, Mysql, PHP för windows): 
+WAMP (Apache, Mysql, PHP för windows): http://www.wampserver.com/
 
 MAMP (Motsvarande för Mac): https://www.mamp.info/en/
 
