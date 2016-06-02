@@ -18,7 +18,7 @@ CMDer (konsolemulator för Windows): http://cmder.net/
 
 WAMP (Apache, Mysql, PHP för windows): http://www.wampserver.com/
 
-MAMP (Motsvarande för Mac): https://www.mamp.info/en/
+MAMP (För både Mac och PC): https://www.mamp.info/en/
 
 AMPPS (Ytterligare ett serveralternativ för Mac): http://www.ampps.com/downloads
 
