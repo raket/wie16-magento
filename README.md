@@ -26,3 +26,5 @@ AMPPS (Ytterligare ett serveralternativ för Mac): http://www.ampps.com/download
 Installera Magento på Mac med MAMP: http://www.human-element.com/installing-magento2-on-mac-for-local-development/
 
 Magento+Docker: https://alankent.me/gsd/introduction-to-docker/
+
+Snabbguide till CSS-styling: http://devdocs.magento.com/guides/v2.0/frontend-dev-guide/css-guide/css_quick_guide_overview.html
