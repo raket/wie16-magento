@@ -42,4 +42,4 @@ php magento setup:upgrade
 
 That's it! In magento admin, go to `Stores -> Configuration -> Advanced -> Advanced` to see your new module. If it's there, it means that Magento has detected it and you're ready to do some coding.
 
-To see the complete module, click here: https://github.com/oskarlind/wie15-magento/tree/master/Backend/Tutorial
+To see the complete module, click here: https://github.com/oskarlind/wie15-magento/tree/master/Backend/TutorialBasicEmpty
