@@ -73,7 +73,10 @@ After that, we declare our `afterExecute` method, using `\Magento\Review\Control
 In our `afterExecute` method, we use the logger object to log a message. Since we use the `info` logging level in this case, the message will be written to `/var/log/system.log.`
 
 ### Summary
-Refresh the cache and enter a review on one of your products. The message should no be visible in the bottom of the log file. 
+Refresh the cache and enter a review on one of your products. The message should now be visible at the bottom of the log file:
+```text
+[2016-06-13 22:14:21] main.INFO: A review was added! Please go to your admin page to approve or disapprove it.
+```
 
 The complete module can be found here: https://github.com/oskarlind/wie15-magento/tree/master/Backend/Tutorial
 
