@@ -5,7 +5,6 @@
 ´´´php
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;
-´´´
 
 class World extends \Magento\Framework\App\Action\Action {
 
