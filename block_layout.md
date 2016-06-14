@@ -3,6 +3,8 @@
 1) First, we need to tell Magento to render the content using our own current webshop layout. Replace the contents of `Controller/Hello/World.php` with the following content:
 
 ```php
+namespace Oskarlind\Tutorial\Controller\Hello;
+
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;
 
