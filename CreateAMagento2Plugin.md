@@ -6,9 +6,7 @@ Plugins can intercept a method before, after or around its execution. For more i
 
 Creating a plugin involves three steps: 
 1) Locate the class/method to intercept
-
 2) Declare your plugin through xml
-
 3) Create the plugin class.
 
 ###Locate the class/method to intercept
