@@ -1,9 +1,11 @@
 # Adding Block and Layout to controller action
 
 1) First, we need to tell Magento to render the content using our own current webshop layout. Replace the contents of Controller/Hello/World.php with the following content:
-```php
+
+´´´php
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;
+´´´
 
 class World extends \Magento\Framework\App\Action\Action {
 
@@ -22,6 +24,7 @@ class World extends \Magento\Framework\App\Action\Action {
 
 }
 ´´´
+
 2) Now, we want to specify how to render our specific route/page/controller. Begin by creating the directories ´view\frontend\layout´. There, add a file called ´tutorial_hello_world´ (´tutorial´ is the frontname and the rest is the location of your controller class):
 ´´´xml
 <?xml version="1.0"?>
