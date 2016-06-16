@@ -3,7 +3,7 @@ Listed below are a few of the most frequently used Magento 2 <a href="https://en
 
 |Command|Decscription|Example|
 |----|----|----|
-|`cache:clean`|Cleans the cache. Your might also need to <a href="http://devdocs.magento.com/guides/v2.0/howdoi/php/php_clear-dirs.html">clear some directories</a> for chances to show.|`php magento cache:clean`|
+|`cache:clean`|Cleans the cache. Your might also need to <a href="http://devdocs.magento.com/guides/v2.0/howdoi/php/php_clear-dirs.html">clear some directories</a> for changes to show.|`php magento cache:clean`|
 |`deploy:mode:set`|Set Magento mode. For development, it should be set to `developer`. See the documentation <a href="http://devdocs.magento.com/guides/v2.0/config-guide/bootstrap/magento-modes.html">here</a>.|`php magento deploy:mode:set developer`|
 |`deploy:mode:show`|Displays current application mode, for example `default`, `developer` or `production`|`php magento deploy:mode:show`|
 |`indexer:reindex`|Reindex everything. Required after for example after applying shopping cart rules.|`php magento indexer:reindex`|
