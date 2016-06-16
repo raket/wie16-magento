@@ -27,6 +27,6 @@ The process for installing through a zip file may vary depending on the language
 3. Clean the cache (`php bin/magento cache:clean`).
 
 ##Activation
-To activate the new language, go to Admin: Stores -> Configuration -> General -> Locale options -> Locale and choose select it in the drop down. Remember to switch to a certain store view first if your intention is to use different languages per store view.
+To activate the new language, go to `Admin: Stores -> Configuration -> General -> Locale options -> Locale` and choose select it in the drop down. Remember to switch to a certain store view first if your intention is to use different languages per store view.
 
 Your new language should now be visible on the site.
