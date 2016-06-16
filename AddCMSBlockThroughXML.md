@@ -16,6 +16,7 @@
     </body>
 </page>
 ```
+Please note that the XML is very sensitive to spaces, so make sure there are no extra such spaces in the file, for example before/after the tags (`<` and `>`).
 
 3) Now all that's left is to refresh the cache (through Admin -> System -> Cache management or the cli, `php magento cache:clean`).
 
