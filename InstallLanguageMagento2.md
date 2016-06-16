@@ -15,8 +15,9 @@ If you install the language pack through zip download, we need to take into acco
 ##Installation through composer
 
 1. Start by locating the language pack, right now a few are listed on https://www.magentocommerce.com/magento-connect/magento-2. For example, the French language pack can be reached at https://github.com/Imaginaerum/magento2-language-fr-fr. 
-2. From there, locate the composer key, for example `imaginaerum/magento2-language-fr-fr`. In the terminal, enter `composer require imaginaerum/magento2-language-fr-fr:*`.
-3. Clean the cache (`php bin/magento cache:clean`).
+2. From there, locate the composer key, for example `imaginaerum/magento2-language-fr-fr`. 
+3. In the terminal, enter `composer require imaginaerum/magento2-language-fr-fr:*`. This adds the component/language pack to your composer.json and downloads the required packages.
+4. Clean the cache (`php bin/magento cache:clean`).
 
 ##Installation through zip file
 The process for installing through a zip file may vary depending on the language pack, but in general, it involves the following steps:
