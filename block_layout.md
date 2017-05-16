@@ -3,7 +3,7 @@
 1) First, we need to tell Magento to render the content using our own current webshop layout. Replace the contents of `Controller/Hello/World.php` with the following content:
 
 ```php
-namespace Oskarlind\Tutorial\Controller\Hello;
+namespace Raket\Tutorial\Controller\Hello;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;
@@ -33,8 +33,8 @@ class World extends \Magento\Framework\App\Action\Action {
     <referenceBlock name="content">
         <block
             template="content.phtml"
-            class="Oskarlind\Tutorial\Block\Main"
-            name="oskarlind_tutorial_hello_world"/>
+            class="Raket\Tutorial\Block\Main"
+            name="raket_tutorial_hello_world"/>
     </referenceBlock>
 </page>
 ```
@@ -48,7 +48,7 @@ class World extends \Magento\Framework\App\Action\Action {
 ```php
 <?php
 
-namespace Oskarlind\Tutorial\Block;
+namespace Raket\Tutorial\Block;
 
 use Magento\Framework\View\Element\Template;
 
@@ -66,4 +66,4 @@ class Main extends Template {
 }
 ```
 
-5) Flush the cache (`php magento cache:clean` or through admin), and remove your vendor directory from `/var/generation` (i.e. `Oskarlind`). The `var/generation` directory contains pre-generated php-classes, so they need to be refreshed. 
+5) Flush the cache (`php magento cache:clean` or through admin), and remove your vendor directory from `/var/generation` (i.e. `Raket`). The `var/generation` directory contains pre-generated php-classes, so they need to be refreshed. 

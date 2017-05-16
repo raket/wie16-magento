@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskarlind\Helloworld\Controller\Hello;
+namespace Raket\Helloworld\Controller\Hello;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;

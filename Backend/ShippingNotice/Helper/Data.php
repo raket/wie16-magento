@@ -1,5 +1,5 @@
 <?php
-namespace Oskarlind\ShippingNotice\Helper;
+namespace Raket\ShippingNotice\Helper;
 
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
@@ -18,11 +18,11 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 
     public function getEnable()
     {
-        return $this->_scopeConfig->getValue('oskarlind_shippingnotice/general/enable');
+        return $this->_scopeConfig->getValue('raket_shippingnotice/general/enable');
     }
 
     public function getOutputText(){
-        return $this->_scopeConfig->getValue('oskarlind_shippingnotice/general/output_text');
+        return $this->_scopeConfig->getValue('raket_shippingnotice/general/output_text');
     }
 
     public function getHoursRemaining() {

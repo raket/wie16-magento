@@ -30,8 +30,8 @@ Create the file `/etc/di.xml`. Then, declare your plugin:
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="\Magento\Review\Controller\Product\Post">
         <plugin
-                name="oskarlind_tutorial_review_plugin"
-                type="\Oskarlind\Tutorial\Model\ReviewPlugin"
+                name="raket_tutorial_review_plugin"
+                type="\Raket\Tutorial\Model\ReviewPlugin"
                 sortOrder="1"
                 disabled="false"/>
     </type>
@@ -48,7 +48,7 @@ That's it! Time to create the actual plugin.
 ###Create the plugin class
 Create the file `/Model/ReviewPlugin.php` with the following contents:
 ```php
-namespace Oskarlind\Tutorial\Model;
+namespace Raket\Tutorial\Model;
 
 class ReviewPlugin {
 
@@ -78,7 +78,7 @@ Refresh the cache and enter a review on one of your products. The message should
 [2016-06-13 22:14:21] main.INFO: A review was added! Please go to your admin page to approve or disapprove it.
 ```
 
-The complete module can be found here: https://github.com/oskarlind/wie15-magento/tree/master/Backend/Tutorial
+The complete module can be found here: https://github.com/raket/wie16-magento/tree/master/Backend/Tutorial
 
 Also, check out Alan's great tutorial on plugins here: http://alanstorm.com/magento_2_object_manager_plugin_system
 

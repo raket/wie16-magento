@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskarlind\Tutorial\Model;
+namespace Raket\Tutorial\Model;
 class ReviewPlugin
 {
     protected $logger;

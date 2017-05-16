@@ -1,15 +1,15 @@
 # Utveckling mot e-handelsplattformar (Magento)
 Välkommen till Magento-delen av "Utveckling mot e-handelsplattformar" för WIE15! Här hittar du länkar till dokumentation och annat relevant, samt moduler och annat kodmaterial som används på lektionerna.
 
-Kontakta mig på oskar.lind@gmail.com om du har några frågor.
+Kontakta mig på marcus@raket.co om du har några frågor.
 
 Mycket nöje!
 
-/Oskar
+/Marcus
 # Dokumentation
 Användarmanual: http://docs.magento.com/m2/ce/user_guide/getting-started.html
 
-Utvecklardokumentation: http://devdocs.magento.com/guides/v2.0/
+Utvecklardokumentation: http://devdocs.magento.com/guides/v2.1/
 
 # Programvara
 PHPStorm (IDE): https://www.jetbrains.com/phpstorm/
@@ -27,4 +27,4 @@ Installera Magento på Mac med MAMP: http://www.human-element.com/installing-mag
 
 Magento+Docker: https://alankent.me/gsd/introduction-to-docker/
 
-Snabbguide till CSS-styling: http://devdocs.magento.com/guides/v2.0/frontend-dev-guide/css-guide/css_quick_guide_overview.html
+Snabbguide till CSS-styling: http://devdocs.magento.com/guides/v2.1/frontend-dev-guide/css-guide/css_quick_guide_overview.html

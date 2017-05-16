@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskarlind\ShippingNotice\Block;
+namespace Raket\ShippingNotice\Block;
 
 use Magento\Framework\View\Element\Template;
 
@@ -9,7 +9,7 @@ class Notice extends Template {
     public function __construct(
         \Magento\Framework\View\Element\Template\Context $context,
         array $data = [],
-        \Oskarlind\ShippingNotice\Helper\Data $helper
+        \Raket\ShippingNotice\Helper\Data $helper
     ) {
         parent::__construct($context, $data);
         $this->_helper = $helper;

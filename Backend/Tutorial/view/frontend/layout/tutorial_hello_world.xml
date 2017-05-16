@@ -3,7 +3,7 @@
     <referenceBlock name="content">
         <block
                 template="content.phtml"
-                class="Oskarlind\Tutorial\Block\Main"
-                name="oskarlind_tutorial_hello"/>
+                class="Raket\Tutorial\Block\Main"
+                name="raket_tutorial_hello"/>
     </referenceBlock>
 </page>

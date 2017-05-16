@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskarlind\Tutorial\Block;
+namespace Raket\Tutorial\Block;
 use Magento\Framework\View\Element\Template;
 
 class Main extends Template
