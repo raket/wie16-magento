@@ -4,7 +4,7 @@
 2) In your theme, create a file `/Magento_Theme/layout/default.xml`. We will now try to add our `contact_us` block to the `footer` container. Add the following content to the file:
 ```xml
 <?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="footer">
             <block class="Magento\Cms\Block\Block" name="contactUs">

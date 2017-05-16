@@ -29,7 +29,7 @@ class World extends \Magento\Framework\App\Action\Action {
 2) Now, we want to specify how to render our specific route/page/controller. Begin by creating the directories `view\frontend\layout`. There, add a file called `tutorial_hello_world` (`tutorial` is the frontname and the rest is the location of your controller class):
 ```xml
 <?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <referenceBlock name="content">
         <block
             template="content.phtml"
